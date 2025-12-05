@@ -8,3 +8,15 @@
 <div class="cover-circle-container">
 !image(assets/images/banner.jpg, Veille technologique, 350px, , )
 </div>
+
+/*
+ Bonjour à tous ! Je m'appelle David Drugeon-Hamon, je suis Lead SRE après un parcours de développeur backend.
+
+Aujourd'hui, j'aimerais vous partager comment j'ai transformé ma veille technologique. Comme vous, je dois rester à jour dans un domaine qui évolue constamment. Pendant longtemps, je me noyais sous l'information.
+
+Ce que je vais vous montrer, c'est le système que j'utilise au quotidien — le même qui m'a permis d'animer le cercle IA, d'écrire des articles de blog, et de préparer ce talk que vous écoutez en ce moment.
+
+[Pause, contact visuel avec l'audience]
+
+ Prêts à reprendre le contrôle de votre veille ?
+*/
