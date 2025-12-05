@@ -3,8 +3,8 @@
 !image(assets/logos/wescale.svg, WeScale, 180px, , [cover-logo])
 
 # Comment je fais ma veille technologique
-## Hackez votre veille techno : De la lecture passive à l'apprentissage actif.
+### Hackez votre veille techno : De la lecture passive à l'apprentissage actif.
 
 <div class="cover-circle-container">
-!image(assets/images/banner.jpg, Veille technologique, 350px, , [cover-image])
+!image(assets/images/banner.jpg, Veille technologique, 350px, , )
 </div>

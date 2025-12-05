@@ -38,8 +38,18 @@
     text-align: left;
 }
 
-.cover-slide h2 {
-    display: none;
+.cover-slide h3 {
+    display: block;
+    color: #ffffff;
+    font-size: 1.8vw;
+    font-weight: 400;
+    opacity: 0.9;
+    margin: 2vh 0 0 0;
+}
+
+.cover-slide h3::before {
+    content: "— ";
+    color: var(--wescale-teal-light);
 }
 
 .cover-slide .cover-logo {
@@ -49,8 +59,52 @@
     filter: brightness(0) invert(1);
 }
 
+/* Cercle blanc en haut à droite */
+.cover-slide::after {
+    content: "";
+    position: absolute;
+    top: -15vh;
+    left: auto;
+    right: -10vw;
+    width: 70vh;
+    height: 70vh;
+    background: #ffffff;
+    background-image: none;
+    border-radius: 50%;
+    opacity: 1;
+    z-index: 1;
+}
+
+/* Conteneur de l'image positionné sur le cercle */
 .cover-slide .cover-circle-container {
-    display: none;
+    position: absolute;
+    top: -15vh;
+    right: -10vw;
+    width: 70vh;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.cover-slide .cover-circle-container img,
+.cover-slide .cover-circle-container .sd-img img {
+    width: 32vh !important;
+    height: 32vh !important;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.cover-slide .cover-circle-container .sd-img {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Speakers slide */
