@@ -1,0 +1,322 @@
+/* Bottom bar */
+.sd-slide::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/logo_tnt.svg);
+    background-position: right 2vw bottom 2vh;
+    background-repeat: no-repeat;
+    background-size: 10vw;
+    opacity: 0.25;
+    z-index: -1;
+}
+
+.sd-img img {
+    object-fit: cover;
+}
+
+/* Cover slide */
+.cover-slide {
+    background: var(--cover-background-color);
+    font-family: var(--cover-font);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 5vw;
+}
+
+.cover-slide h1 {
+    color: var(--cover-color);
+    font-size: 5.5vw;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+    text-align: left;
+}
+
+.cover-slide h2 {
+    display: none;
+}
+
+.cover-slide .cover-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 2vh;
+    filter: brightness(0) invert(1);
+}
+
+.cover-slide .cover-circle-container {
+    display: none;
+}
+
+/* Speakers slide */
+.speaker-slide {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.speaker-slide > div {
+    height: 100%;
+}
+
+.speaker-slide .left-text {
+    position: relative;
+}
+
+.speaker-slide .left-text::before {
+    content: "";
+    background-color: var(--sd-primary-color);
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 200px;
+    height: 200%;
+    transform: rotate(-8deg);
+}
+
+.speaker-slide .left-text p {
+    font-family: var(--speaker-font);
+    font-size: 8vh;
+    transform: rotate(-90deg);
+    position: absolute;
+    margin: 0;
+    left: -50px;
+    bottom: 130px;
+    color: var(--color-bg-black);
+}
+
+.speaker-slide .content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    padding: 30px 30px 30px 250px;
+}
+
+.speaker-slide .content p {
+    margin: 0;
+    text-align: left;
+}
+
+.speaker-name {
+    font-size: 5vw;
+    font-family: var(--speaker-font-title);
+}
+
+.job {
+    color: var(--color-job);
+    font-family: var(--speaker-font);
+}
+
+.refs {
+    margin-top: 65px;
+    color: var(--color-bg-main);
+    list-style: none;
+
+    li {
+        padding-left: 1rem;
+        text-indent: -0.7rem;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    li::before {
+        content: "☸️ ";
+    }
+
+    li.gitlab::before {
+        content: "🦊 ";
+    }
+
+    li.r2devops::before {
+        content: "🤖 ";
+    }
+
+    li.volcamp::before {
+        content: "🌋 ";
+    }
+    li.speaker::before {
+        content: "🎤 ";
+    }
+    li.formateur::before {
+        content: "🧑‍🎓 ";
+    }
+    li.contributeur::before {
+        content: "🏗️ ";
+    }
+    li.mountain::before {
+        content: "🏔️ ";
+    }
+    li.certifications::before {
+        content: "🎓 ";
+    }
+    li.tools::before {
+        content: "⚒️ ";
+    }
+}
+
+.social-networks {
+    margin-top: 65px;
+    color: var(--color-bg-main);
+    list-style: none;
+
+    li {
+        padding-left: 1rem;
+        text-indent: -0.7rem;
+        margin: auto;
+    }
+
+    li::before {
+        content: "🚨 ";
+    }
+
+    li.twitter::before {
+        content: "🐦 ";
+    }
+
+    li.github::before {
+        content: "🐙 ";
+    }
+
+    li.blog::before {
+        content: "✍️ ";
+    }
+
+    li.bluesky::before {
+        content: "🦋 ";
+    }
+
+    li.linkedin::before {
+        content: "💼 ";
+    }
+}
+
+/* Chapter slide */
+.chapter-slide {
+    h1 {
+        color: var(--cover-color);
+        font-family: var(--cover-font);
+    }
+}
+
+/* Slide with title */
+.with-title-top {
+    display: block;
+    padding: 0;
+
+    h1 {
+        color: var(--sd-heading-color);
+        font-size: 5vw;
+        background-color: var(--sd-primary-color);
+        text-align: left;
+        padding: 0.3vw 0 0.3vw 1vw;
+    }
+
+    h2 {
+        margin: 0;
+        margin-block: 0;
+    }
+}
+
+/* Slide with 2 columns*/
+.two-cols {
+    display: flex;
+    width: 100%;
+    height: 87%;
+}
+
+.a-column {
+    flex: 50%;
+}
+
+.vertical-align {
+    margin: auto;
+
+    img {
+        height: 75vh;
+        width: 75vh;
+    }
+}
+
+/* Lists */
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: var(--li-icon);
+    padding-right: 20px;
+    text-indent: -1.3vw;
+}
+
+li {
+    margin: 2vw 0;
+}
+
+/* Last slide */
+.last-slide {
+    h1 {
+        color: var(--cover-color);
+        font-family: var(--cover-font);
+    }
+}
+
+/* Slide with a title and an image */
+.image-and-title {
+    h1 {
+        font-family: var(--cover-font);
+        color: var(--sd-primary-color);
+    }
+}
+
+/** Markdown code */
+code {
+    background-color: var(--code-bg-color);
+    color: var(--code-font-color);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/** Level 2 items in list */
+ul li ul {
+    li::before {
+        content: var(--li-l2-icon);
+        padding-right: 20px;
+        text-indent: -1.3vw;
+    }
+    li {
+        font-size: var(--sd-l2-text-size);
+        line-height: var(--sd-l2-text-line-height);
+        color: rgb(101, 101, 101);
+    }
+}
+
+/* Custom class */
+.flux-mermaid pre {
+    code {
+        width: 1200px;
+        display: flex;
+        margin: auto;
+    }
+}
+
+/* Custom class */
+.argocd-mermaid pre {
+    code {
+        width: 1200px;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+code.language-mermaid {
+    background-color: transparent;
+}
