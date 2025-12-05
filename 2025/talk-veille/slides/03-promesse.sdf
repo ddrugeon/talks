@@ -1,0 +1,23 @@
+## .[content-slide]
+
+<div class="slide-header">
+    <span class="chapter-number">1</span>
+    <div class="title-block">
+        <span class="surtitle">Introduction</span>
+        <h1>La promesse</h1>
+    </div>
+</div>
+
+<div class="slide-content">
+
+Le système que je vais vous montrer tient en trois étapes :
+
+* **Capturer** — Je sauvegarde ce qui m'intéresse, mais pas dans des onglets. Dans un système dédié.
+* **Traiter** — Je lis activement, je surligne, je connecte les idées entre elles.
+* **Créer** — Ces notes deviennent des articles, des talks, des solutions à des problèmes réels.
+
+</div>
+
+<div class="slide-image">
+!image(assets/images/diego-ph-fIq0tET6llw-unsplash.jpg, deal)
+</div>
