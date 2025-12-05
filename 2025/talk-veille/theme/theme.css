@@ -251,6 +251,62 @@
     }
 }
 
+/* Sommaire slide */
+.sommaire-slide {
+    padding: 5vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sommaire-slide h1 {
+    color: var(--wescale-navy);
+    font-family: var(--cover-font);
+    font-size: 4vw;
+    font-weight: 700;
+    margin-bottom: 5vh;
+    text-align: left;
+}
+
+.sommaire-slide h1::before {
+    content: "— ";
+    color: var(--wescale-navy);
+}
+
+.sommaire-slide ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: sommaire-counter;
+    width: 100%;
+}
+
+.sommaire-slide ol li {
+    counter-increment: sommaire-counter;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2vh 0;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.sommaire-slide ol li::before {
+    content: counter(sommaire-counter);
+    font-family: var(--cover-font);
+    font-size: 6vw;
+    font-weight: 700;
+    color: var(--wescale-teal);
+    min-width: 8vw;
+    padding-right: 2vw;
+    text-align: left;
+}
+
+.sommaire-slide ol li::after {
+    content: none;
+}
+
 /* Chapter slide */
 .chapter-slide {
     h1 {
