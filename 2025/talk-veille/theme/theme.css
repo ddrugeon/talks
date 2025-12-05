@@ -341,12 +341,21 @@
     padding: 0 5vw calc(10vh) 5vw;
 }
 
-.demo-slide .slide-image img {
+.demo-slide .slide-image img,
+.demo-slide .slide-image .sd-img img {
     max-width: 80%;
     max-height: 90%;
     object-fit: contain;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
+}
+
+.demo-slide .slide-image .sd-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .demo-slide .slide-table {
