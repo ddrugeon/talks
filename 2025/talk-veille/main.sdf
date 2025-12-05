@@ -1,45 +1,6 @@
 /::
-add_styles: assets/theme.css
+custom_css: theme/theme.css
+add_styles: theme/variables.css
 ::/
 
-## .[cover-right]
-
-<div class="cover-content">
-
-<img src="assets/logos/wescale.svg" alt="WeScale" class="cover-logo" onerror="this.style.display='none'">
-
-# Comment je fais ma veille technologique
-
-Hackez votre veille techno : De la lecture passive à l'apprentissage actif.
-
-</div>
-
-<div class="cover-circle-container">
-<img src="assets/images/banner.jpg" alt="Veille technologique" class="cover-image">
-</div>
-
 !include(slides)
-
-## 🫶 Merci .[#split]
-
-[[left]]
-
-Source :
-
-<div class="sd-qrcode" data-url="https://github.com/ddrugeon/talks" style="width: 400px;" data-icon="/favicon.svg"></div>
-
-https://github.com/ddrugeon/talks
-
-[[/left]]
-
-[[right]]
-
-Des feedbacks ?
-
-<div class="sd-qrcode qrfeed" data-url="https://openfeedback.io/KjyPp2Tdjx3FWfXrZ6vn/2025-12-09/F2FFfurlfjBLOLDgVpXJ" style="width: 400px;"></div>
-
-=> https://slidesk.link
-
-[[/right]]
-
-<small>Photos, illustrations : Unsplash</small>

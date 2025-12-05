@@ -51,6 +51,7 @@
 
 .cover-right .cover-left-content h2,
 .cover-right .cover-content h1 {
+    font-family: "Open Sans", sans-serif;
     color: #ffffff;
     font-weight: 700;
     font-size: 4vw;
