@@ -1,0 +1,7 @@
+/::
+add_styles: assets/theme.css
+::/
+
+# Comment je fais ma veille technologique
+
+!include(slides)
