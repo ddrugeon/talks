@@ -83,3 +83,17 @@ body:has(.cover-slide.sd-current) .footer {
     /* Filtre pour obtenir la couleur teal #2b8a8c */
     filter: brightness(0) saturate(100%) invert(47%) sepia(30%) saturate(600%) hue-rotate(131deg) brightness(92%) contrast(87%);
 }
+
+/****
+ * White footer on transition slides
+ ****/
+body:has(.transition-slide.sd-current) .footer .presentation-date,
+body:has(.transition-slide.sd-current) .footer .presentation-title,
+body:has(.transition-slide.sd-current) .footer .slide-number {
+    color: #ffffff;
+}
+
+body:has(.transition-slide.sd-current) .footer .logo-footer img {
+    /* Filtre pour obtenir du blanc */
+    filter: brightness(0) invert(1);
+}

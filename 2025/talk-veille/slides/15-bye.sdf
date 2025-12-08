@@ -1,0 +1,20 @@
+## .[demo-slide]
+
+<div class="slide-header">
+    <span class="chapter-number">07</span>
+    <div class="title-block">
+        <span class="surtitle">That's all folks!</span>
+        <h1>Au revoir</h1>
+    </div>
+</div>
+
+<div class="slide-image">
+!image(assets/images/diego-ph-fIq0tET6llw-unsplash.jpg, conseils)
+</div>
+
+/*
+
+- **Notes du speaker :**
+
+
+*/

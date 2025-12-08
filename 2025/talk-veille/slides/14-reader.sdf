@@ -1,0 +1,32 @@
+## .[demo-slide]
+
+<div class="slide-header">
+    <span class="chapter-number">03</span>
+    <div class="title-block">
+        <span class="surtitle">Le workflow</span>
+        <h1>Capturer l'écrit et les vidéos avec Reader</h1>
+    </div>
+</div>
+
+<div class="slide-image">
+!image(assets/images/reader.png, reader)
+</div>
+
+/*
+
+- **Notes du speaker :**
+> Premier outil : **Readwise Reader**. C'est mon app de lecture pour tout ce qui est écrit.
+>
+> *[Démo ou vidéo pré-enregistrée]*
+>
+> Je trouve un article intéressant sur le web. Au lieu de l'ouvrir dans un onglet, je clique sur l'extension — l'article est sauvegardé dans Reader.
+>
+> Ensuite, quand je lis — vraiment lis — je surligne les passages importants. Comme ça.
+>
+> *[Montrer le surlignage]*
+>
+> Et voici le petit plus : **Ghostreader**, l'IA intégrée. Je peux lui demander de résumer l'article, ou de m'expliquer un passage technique. "Explain this code snippet" — et hop, j'ai une explication.
+>
+> Ma règle personnelle : **si ça ne vaut pas la peine d'être surligné, ça ne vaut pas la peine d'être lu**. Ça m'oblige à lire activement.
+
+*/

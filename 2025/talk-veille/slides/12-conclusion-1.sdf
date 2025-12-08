@@ -1,0 +1,44 @@
+## .[demo-slide]
+
+<div class="slide-header">
+    <span class="chapter-number">05</span>
+    <div class="title-block">
+        <span class="surtitle">Conclusion</span>
+        <h1>Et en combien de temps</h1>
+    </div>
+</div>
+
+
+<div class="slide-table">
+
+
+| Outil                    | Coût                                       |
+| ------------------------ | ------------------------------------------ |
+| Readwise (Reader inclus) |10 € / mois                                 |
+| Snipd                    | 0€ / mois (free) - 11.99€ / mois (premium) |
+| Obsidian                 | 0€ / mois                                  |
+
+</div>
+
+
+/*
+
+- **Notes du speaker :**
+> OK, on a vu comment l'information entre dans le système. Maintenant, la vraie question : **à quoi ça sert ?**
+>
+> *[Afficher le split screen]*
+>
+> À gauche, mes notes dans Obsidian. À droite... ce talk.
+>
+> Ce que vous écoutez en ce moment, ce n'est pas sorti de nulle part. Ça a commencé par :
+> - 3 snippets d'un podcast sur le PKM que j'ai écouté en voiture
+> - 2 articles sur Readwise Reader que j'ai surlignés
+> - Des notes atomiques que j'ai connectées au fil du temps
+>
+> Quand j'ai décidé de préparer ce talk, j'avais déjà 70% de la matière première. J'ai juste eu à assembler.
+>
+> C'est ça, **la boucle vertueuse** : la veille nourrit la création, et la création renforce l'apprentissage.
+>
+> Plus je produis, mieux je retiens. Plus je retiens, plus je peux produire.
+
+*/

@@ -1,0 +1,35 @@
+## .[demo-slide]
+
+<div class="slide-header">
+    <span class="chapter-number">03</span>
+    <div class="title-block">
+        <span class="surtitle">Le workflow</span>
+        <h1>Le coeur du système: Readwise</h1>
+    </div>
+</div>
+
+<div class="slide-image">
+!image(assets/images/readwise.png, readwise)
+</div>
+
+/*
+
+- **Notes du speaker :**
+> Readwise, c'est le **middleware de mon système**. C'est lui qui fait tout le travail ingrat.
+>
+> *[Montrer le dashboard]*
+>
+> Il récupère mes highlights de partout :
+> - Reader pour les articles
+> - Snipd pour les podcasts
+> - Kindle pour les ebooks
+> - Même les tweets que je like
+>
+> Et il fait deux choses essentielles :
+>
+> 1. **Il nettoie et formate** — Les données arrivent propres, avec auteur, URL, date.
+> 2. **Il synchronise vers Obsidian** — Automatiquement, toutes les heures.
+>
+> Je n'ai rien à faire. Mes highlights apparaissent dans Obsidian comme par magie.
+
+*/
