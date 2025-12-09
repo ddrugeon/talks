@@ -1,0 +1,78 @@
+/* Fonts you want to use */
+/* Just change the path*/
+@font-face {
+    font-family: "Speaker title";
+    src: url(../custom/fonts/raider_crusader/raidercrusadertitle.ttf);
+}
+@font-face {
+    font-family: "Speaker";
+    src: url(../custom/fonts/raider_crusader/raidercrusader.ttf);
+}
+/* Import Open Sans depuis Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+/* Variables to customize your slides */
+:root {
+    /* WeScale Color Palette */
+    --wescale-teal-dark: #1e6b7b;
+    --wescale-teal: #2b8a8c;
+    --wescale-teal-light: #40b5ad;
+    --wescale-navy: #1b3a4b;
+    --wescale-white: #ffffff;
+    --wescale-gray: #666666;
+    --wescale-light-gray: #f5f5f5;
+
+    --sd-heading1-size: 8.5vw;
+    --sd-heading1-line-height: 1;
+    --sd-heading2-size: 5vw;
+    --sd-heading2-line-height: 1;
+    --sd-text-size: 2.2vw;
+    --sd-text-line-height: 1.2;
+    --sd-caption-font-size: 1vw;
+    --sd-caption-line-height: 1;
+
+    --sd-background-color: #fff;
+    --sd-heading-color: #222333;
+    --sd-text-color: #222333;
+    --sd-primary-color: #6abfad;
+    --sd-caption-color: rgba(0, 0, 0, 0.7);
+    --sd-caption-bgcolor: rgba(255, 255, 255, 0.7);
+
+    --sd-l2-text-size: 2vw;
+    --sd-l2-text-line-height: 0.8;
+    --sd-l2-color: rgb(101, 101, 101);
+
+    --li-icon: "🧙🏻‍♂️";
+    --li-l2-icon: "💍";
+
+    --cover-background-color: linear-gradient(
+        180deg,
+        var(--wescale-teal) 0%,
+        var(--wescale-teal-dark) 50%,
+        var(--wescale-navy) 100%
+    );
+    --cover-color: white;
+    --cover-img: url(../assets.logos/wescale.svg);
+    --cover-font: "Open Sans", sans-serif;
+
+    --speaker-font: Speaker;
+    --speaker-font-title: "Speaker title";
+
+    --conference-logo: url(../images/conference.jpg);
+
+    --bottom-bar-content: "2024 yodamad.fr";
+    --bottom-bar-height: 1.2vw;
+    --bottom-bar-color: white;
+
+    --feedback-qrcode: url(../images/feedback.png);
+
+    --code-bg-color: rgb(155, 155, 155);
+    --code-font-color: rgb(0, 0, 0);
+
+    /* SpeakerView */
+    --sd-sv-timer-size: 80px;
+    --sd-sv-text-size: 40px;
+    --sd-sv-text-line-height: 1.2;
+    --sd-sv-background-color: #242424;
+    --sd-sv-text-color: rgba(255, 255, 255, 0.87);
+}

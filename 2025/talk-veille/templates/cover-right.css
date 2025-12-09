@@ -1,0 +1,145 @@
+.cover-right {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(135deg, #2b8a8c 0%, #1e6b7b 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.cover-right {
+    /* Variables pour le cercle - toutes en vh pour le calcul */
+    --circle-size: 70vh;
+    --circle-top: -16vh;
+    --circle-right: -10vh;
+}
+
+.cover-right::after {
+    content: "";
+    position: absolute;
+
+    /* Cercle positionné en haut à droite */
+    top: var(--circle-top);
+    right: var(--circle-right);
+
+    /* Taille du cercle */
+    height: var(--circle-size);
+    width: var(--circle-size);
+
+    background: #ffffff;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.cover-right .cover-left-content,
+.cover-right .cover-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 5vw;
+    z-index: 2;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.cover-right .cover-left-content h2,
+.cover-right .cover-content h1 {
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 1.2;
+    margin: 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Supprimer le tiret par défaut de h1 dans cover-right */
+.cover-right .cover-content h1::before {
+    content: none;
+}
+
+.cover-right .cover-left-content p,
+.cover-right .cover-content h2 {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.8vw;
+    opacity: 0.9;
+    margin: 2vh 0 0 0;
+    text-align: left;
+}
+
+.cover-right .cover-left-content p::before,
+.cover-right .cover-content h2::before {
+    content: "— ";
+    color: #40b5ad;
+}
+
+.cover-right .cover-logo,
+.cover-right .cover-content > img:first-child,
+.cover-right .cover-content > svg:first-child {
+    max-width: 180px;
+    width: 180px;
+    height: auto;
+    margin-bottom: 3vh;
+    filter: brightness(0) invert(1);
+    display: block;
+}
+
+.cover-right .cover-left-content img,
+.cover-right .cover-left-content svg {
+    max-width: 180px;
+    width: 180px;
+    height: auto;
+    margin-bottom: 3vh;
+    filter: brightness(0) invert(1);
+    display: block;
+}
+
+.cover-right > .cover-right-circle {
+    width: 55%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.cover-right > .cover-right-circle img {
+    max-width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+/* Conteneur positionné exactement comme le cercle */
+.cover-right .cover-circle-container {
+    position: absolute;
+    top: var(--circle-top);
+    right: var(--circle-right);
+    width: var(--circle-size);
+    height: var(--circle-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+/* Image centrée dans le conteneur */
+.cover-right .cover-circle-container .cover-image {
+    max-width: 500px !important;
+    width: 500px !important;
+    height: auto !important;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    object-fit: contain;
+    flex-shrink: 0;
+}

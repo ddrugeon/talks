@@ -1,0 +1,27 @@
+## .[demo-slide]
+
+<div class="slide-header">
+    <span class="chapter-number">03</span>
+    <div class="title-block">
+        <span class="surtitle">Le workflow</span>
+        <h1>Architecture du système</h1>
+    </div>
+</div>
+
+<div class="slide-image">
+!image(assets/images/architecture-veille.png, architecture-veille)
+</div>
+
+/*
+- **Notes du speaker :**
+> Mon système repose sur trois couches :
+>
+> 1. **Les sources** — Tout ce que je consomme : articles web, vidéo youtube, podcasts, livres physiques ou numériques.
+> 2. **Readwise** — C'est le hub central. Il collecte tout, nettoie, formate.
+> 3. **Obsidian** — Mon cerveau numérique. C'est là que tout atterrit et que je travaille.
+> 4. **NotebookLM** - Un outil qui permet à partir de sources de pouvoir brainstormer avec ses notes à l'aide de Google Gemini.
+>
+> Le point crucial : je ne fais presque rien manuellement. L'info circule automatiquement de gauche à droite.
+>
+> Voyons chaque étape.
+*/

@@ -1,0 +1,25 @@
+## .[demo-slide]
+
+<div class="slide-header">
+    <span class="chapter-number">05</span>
+    <div class="title-block">
+        <span class="surtitle">Conclusion</span>
+        <h1>La mise en place</h1>
+    </div>
+</div>
+
+
+<div class="slide-table">
+
+| Investissement temps | Durée            |
+| -------------------- | ---------------- |
+| Setup initial        | Une demi-journée |
+| Routine quotidienne  | 10-15 min        |
+
+</div>
+
+/*
+
+- **Notes du speaker :**
+
+*/

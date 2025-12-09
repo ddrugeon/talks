@@ -1,0 +1,6 @@
+## .[transition-slide]
+
+<div class="transition-content">
+    <span class="chapter-number">02</span>
+    <h1 class="transition-title">La philosophie</h1>
+</div>

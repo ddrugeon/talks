@@ -1,0 +1,6 @@
+/::
+custom_css: theme/theme.css
+add_styles: theme/variables.css
+::/
+
+!include(slides)

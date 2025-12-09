@@ -1,0 +1,35 @@
+## .[demo-slide]
+
+<div class="slide-header">
+    <span class="chapter-number">01</span>
+    <div class="title-block">
+        <span class="surtitle">Introduction</span>
+        <h1>Le constat</h1>
+    </div>
+</div>
+
+<div class="slide-image">
+!image(assets/images/vivaldi-tabs.png, vivaldi browser)
+</div>
+
+/*
+
+*[Lever la main]*
+
+Petit sondage : qui ici a plus de 20 onglets ouverts en ce moment sur son navigateur ?
+
+*[Attendre les réactions, sourire]*
+
+Pas de honte, on est entre nous. Moi, à une époque, j'en avais tellement que Chrome n'affichait même plus les favicons — juste des petits traits.
+
+Ces onglets, c'est quoi ? Des articles qu'on va "lire plus tard". Des vidéos YouTube "super intéressantes". Des pages de documentation "au cas où".
+
+Le problème, c'est que "plus tard" n'arrive jamais. On accumule par peur de manquer quelque chose — ce qu'on appelle le FOMO, Fear Of Missing Out.
+
+Résultat : on stocke, mais on ne traite pas. On ne retient rien. C'est de la thésaurisation numérique, pas de la veille.
+
+*[Pause]*
+
+Et pendant ce temps, la charge mentale augmente. Chaque onglet ouvert, c'est une petite dette cognitive.
+
+*/

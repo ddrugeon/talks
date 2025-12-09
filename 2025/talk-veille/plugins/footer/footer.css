@@ -1,0 +1,99 @@
+/****
+ * CSS for footer container
+ ****/
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 2vh;
+    padding: 0 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: all var(--animationTimer) ease;
+}
+
+/* Masquer le footer sur la slide de couverture */
+body:has(.cover-slide.sd-current) .footer {
+    display: none;
+}
+
+/****
+ * CSS for footer left (date)
+ ****/
+.footer-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.presentation-date {
+    font-family: var(--cover-font, "Open Sans", sans-serif);
+    font-size: 1.2vw;
+    color: var(--wescale-teal, #2b8a8c);
+}
+
+/****
+ * CSS for footer center (title)
+ ****/
+.footer-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+
+.presentation-title {
+    font-family: var(--cover-font, "Open Sans", sans-serif);
+    font-size: 1.2vw;
+    color: var(--wescale-teal, #2b8a8c);
+}
+
+/****
+ * CSS for footer right (slide number + logo)
+ ****/
+.footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+/****
+ * CSS for slide number
+ ****/
+.slide-number {
+    font-family: var(--cover-font, "Open Sans", sans-serif);
+    font-size: 1.2vw;
+    color: var(--wescale-teal, #2b8a8c);
+    margin-right: 1vw;
+}
+
+/****
+ * CSS for logo in footer
+ ****/
+.logo-footer {
+    display: inline-block;
+}
+
+.logo-footer img {
+    width: 80px;
+    height: auto;
+    /* Filtre pour obtenir la couleur teal #2b8a8c */
+    filter: brightness(0) saturate(100%) invert(47%) sepia(30%) saturate(600%) hue-rotate(131deg) brightness(92%) contrast(87%);
+}
+
+/****
+ * White footer on transition slides
+ ****/
+body:has(.transition-slide.sd-current) .footer .presentation-date,
+body:has(.transition-slide.sd-current) .footer .presentation-title,
+body:has(.transition-slide.sd-current) .footer .slide-number {
+    color: #ffffff;
+}
+
+body:has(.transition-slide.sd-current) .footer .logo-footer img {
+    /* Filtre pour obtenir du blanc */
+    filter: brightness(0) invert(1);
+}

@@ -1,0 +1,16 @@
+<div class="cover-right">
+<div class="cover-left-content">
+
+<sd-logo />
+
+<sd-title />
+
+<sd-content />
+
+</div>
+<div class="cover-right-circle">
+
+<sd-img />
+
+</div>
+</div>
