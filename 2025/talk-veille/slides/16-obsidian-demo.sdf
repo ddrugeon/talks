@@ -1,0 +1,13 @@
+## .[demo-slide]
+
+<div class="slide-header">
+    <span class="chapter-number">03</span>
+    <div class="title-block">
+        <span class="surtitle">Le workflow</span>
+        <h1>Obsidian demo</h1>
+    </div>
+</div>
+
+<div class="slide-image">
+!image(assets/images/04-demo-time.png, demo time)
+</div>
