@@ -97,3 +97,17 @@ body:has(.transition-slide.sd-current) .footer .logo-footer img {
     /* Filtre pour obtenir du blanc */
     filter: brightness(0) invert(1);
 }
+
+/****
+ * White footer on feedback slides (left side on teal background)
+ ****/
+body:has(.feedback-slide.sd-current) .footer .presentation-date,
+body:has(.feedback-slide.sd-current) .footer .presentation-title,
+body:has(.feedback-slide.sd-current) .footer .slide-number {
+    color: #ffffff;
+}
+
+body:has(.feedback-slide.sd-current) .footer .logo-footer img {
+    /* Filtre pour obtenir du blanc */
+    filter: brightness(0) invert(1);
+}

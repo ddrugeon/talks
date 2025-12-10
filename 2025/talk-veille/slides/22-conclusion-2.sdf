@@ -12,14 +12,13 @@
 <div class="slide-table">
 
 
-| Outil                    | Coût                                       |
-| ------------------------ | ------------------------------------------ |
-| Readwise (Reader inclus) |10 € / mois                                 |
-| Snipd                    | 0€ / mois (free) - 11.99€ / mois (premium) |
-| Obsidian                 | 0€ / mois                                  |
+| Outil                    | Coût                                       | Lien |
+| ------------------------ | ------------------------------------------ | ----------- |
+| Readwise (Reader inclus) |10 € / mois                                 | <div class="sd-qrcode" data-url="https://readwise.io/i/david7346U" style="width: 160px" data-icon="/assets/logos/readwise.svg"></div> |
+| Snipd                    | 0€ / mois (free) - 11.99€ / mois (premium) | <div class="sd-qrcode" data-url="https://get.snipd.com/pAbF/633u3bbl" style="width: 160px" data-icon="/assets/logos/snipd.svg"></div> |
+| Obsidian                 | 0€ / mois                                  | <div class="sd-qrcode" data-url="https://obsidian.md" style="width: 160px" data-icon="/assets/logos/obsidian.svg"></div> |
 
 </div>
-
 
 /*
 

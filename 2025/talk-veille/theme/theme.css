@@ -376,7 +376,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 10vw calc(10vh) 10vw;
+    padding: 0 10vw calc(5vh) 10vw;
 }
 
 .demo-slide .slide-table table {
@@ -792,4 +792,94 @@ section.sd-slide.transition-slide::after {
     border: none;
     background: transparent;
     max-width: 35vw;
+}
+
+/* Feedback slide - two panel layout with QR code */
+.feedback-slide,
+.sd-slide.feedback-slide,
+section.feedback-slide,
+section.sd-slide.feedback-slide {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    padding: 0 !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+.feedback-slide .left-panel,
+.feedback-slide .right-panel {
+    width: 50% !important;
+}
+
+section.sd-slide.feedback-slide::after {
+    content: none !important;
+    display: none !important;
+}
+
+.feedback-slide .left-panel {
+    position: relative;
+    background: linear-gradient(135deg, #2b8a8c 0%, #1b3a4b 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 3vw;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.feedback-slide .left-panel .panel-title {
+    font-family: var(--cover-font);
+    font-size: 5vw;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 5vh 0;
+    align-self: flex-start;
+    padding-left: 2vw;
+}
+
+.feedback-slide .left-panel .qr-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback-slide .right-panel {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.feedback-slide .right-panel .panel-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.feedback-slide .right-panel .panel-content .sd-img,
+.feedback-slide .right-panel .panel-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Footer blanc sur le panneau gauche (fond teal) */
+.feedback-slide .left-panel ~ .sd-footer,
+.feedback-slide ~ .sd-footer,
+section.sd-slide.feedback-slide .sd-footer,
+section.sd-slide.feedback-slide + .sd-footer {
+    color: #ffffff !important;
+}
+
+/* Style le footer global quand on est sur feedback-slide */
+section.sd-slide.feedback-slide {
+    --footer-color: #ffffff;
 }
