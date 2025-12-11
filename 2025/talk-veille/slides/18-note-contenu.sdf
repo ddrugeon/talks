@@ -1,17 +1,16 @@
 ## .[demo-slide]
 
 <div class="slide-header">
-    <span class="chapter-number">04</span>
+    <span class="chapter-number">02</span>
     <div class="title-block">
-        <span class="surtitle">Produire de la valeur</span>
-        <h1>De la note au contenu</h1>
+        <span class="surtitle">Le workflow</span>
+        <h1>Le résultat</h1>
     </div>
 </div>
 
 
-<div class="slide-image side-by-side">
-!image(assets/images/snipd-1.png, snipd)
-!image(assets/images/snipd-2.png, snipd)
+<div class="slide-image">
+!image(assets/images/article-blog.png, blog)
 </div>
 
 

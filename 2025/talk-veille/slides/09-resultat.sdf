@@ -1,11 +1,15 @@
 ## .[demo-slide]
 
 <div class="slide-header">
-    <span class="chapter-number">03</span>
+    <span class="chapter-number">02</span>
     <div class="title-block">
         <span class="surtitle">Le workflow</span>
         <h1>Le résultat final sur Obsidian</h1>
     </div>
+</div>
+
+<div class="slide-image">
+!image(assets/images/article-draft.png, article, 100%)
 </div>
 
 /*

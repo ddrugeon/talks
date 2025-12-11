@@ -1,23 +1,22 @@
-## .[content-slide]
+## .[demo-slide]
 
 <div class="slide-header">
-    <span class="chapter-number">02</span>
+    <span class="chapter-number">01</span>
     <div class="title-block">
-        <span class="surtitle">La philosophie</span>
-        <h1>Le but</h1>
+        <span class="surtitle">Introduction</span>
+        <h1>Veille passive vs Veille active</h1>
     </div>
 </div>
 
-<div class="slide-content">
+<div class="slide-table">
 
-**"le but n'est pas l'archivage, c'est la création"**
+| Veille Passive | Veille Active    |
+| -------------- | ---------------- |
+| Lire           | Lire + Surligner |
+| Oublier        | Connecter        |
+| Consommer      | Créer            |
 
 </div>
-
-<div class="slide-image">
-!image(assets/images/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg, deal)
-</div>
-
 
 /*
 - **Notes du speaker :**
