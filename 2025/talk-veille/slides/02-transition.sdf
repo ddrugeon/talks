@@ -1,6 +1,0 @@
-## .[transition-slide]
-
-<div class="transition-content">
-    <span class="chapter-number">01</span>
-    <h1 class="transition-title">Introduction</h1>
-</div>

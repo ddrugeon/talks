@@ -1,0 +1,47 @@
+/* Variables de couleurs */
+:root {
+    --wescale-teal: #45989e;
+    --wescale-dark-teal: #2a5f62;
+    --wescale-light-teal: #5eadb3;
+    --wescale-navy: #1e3a45;
+    --wescale-gray: #6b7280;
+    --wescale-light-gray: #f3f4f6;
+}
+
+/* Styles de base */
+.slidev-layout {
+    @apply font-sans;
+    color: var(--wescale-navy);
+}
+
+/* Titres */
+h1 {
+    @apply text-5xl font-bold;
+    color: var(--wescale-navy);
+}
+
+h2 {
+    @apply text-3xl font-bold mb-6;
+    color: var(--wescale-navy);
+}
+
+/* Numéros de section */
+.section-number {
+    font-size: 8rem;
+    font-weight: 700;
+    color: var(--wescale-teal);
+    line-height: 1;
+}
+
+/* Forme circulaire décorative */
+.circle-shape {
+    position: absolute;
+    border-radius: 50%;
+    background: var(--wescale-teal);
+}
+
+/* Animations de transition */
+.slide-enter-active,
+.slide-leave-active {
+    transition: all 0.3s ease;
+}
