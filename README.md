@@ -6,7 +6,7 @@ In this project, you'll find all my slides, demos etc from my talks that I had t
 
 | Date | Event | Title | Slides | Demo |
 |------|-------|-------|--------|------|
-| | | | | |
+| 15/12/2025 | WeShare | Comment je fais ma veille technologique | [Slides](2025/weshare/talk-veille/) | - |
 
 ## About
 
