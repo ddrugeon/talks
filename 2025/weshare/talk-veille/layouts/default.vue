@@ -45,60 +45,53 @@ const props = defineProps({
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding: 0 4rem 4rem 4rem; /* Pas de padding en haut, juste sur les côtés et en bas */
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem 4rem 4rem;
     overflow: auto;
 }
 
-/* Centrer les images avec hauteur limitée */
-.main-content :deep(img) {
-    display: block;
-    margin: 0 auto;
-    max-height: calc(
-        80vh - 20rem
-    ); /* Hauteur max pour ne pas toucher le footer */
-    max-width: calc(100vw - 8rem); /* Largeur max avec padding */
-    width: auto;
-    height: auto;
-    object-fit: contain;
-}
-
-/* Centrer les images avec hauteur limitée */
-.main-content :deep(video) {
-    display: block;
-    margin: 0 auto;
-    max-height: calc(
-        80vh - 20rem
-    ); /* Hauteur max pour ne pas toucher le footer */
-    max-width: calc(100vw - 8rem); /* Largeur max avec padding */
-    width: auto;
-    height: auto;
-    object-fit: contain;
-}
-
-/* Container de paragraphe avec plusieurs images */
+/* Container de paragraphe avec images */
 .main-content :deep(p) {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2.5rem; /* Espace entre les images */
+    gap: 2.5rem;
     margin: 0;
-    flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
+    flex-wrap: wrap;
+    flex: 1;
 }
 
-/* Images individuelles */
-..main-content :deep(img) {
+/* Images - style par défaut (multiples images) */
+.main-content :deep(img) {
     display: block;
-    max-height: calc(100vh - 28rem); /* Réduit de 20rem à 28rem */
+    margin: 0;
+    max-height: calc(100vh - 60rem);
+    max-width: 50%;
     width: auto;
-    max-width: 45%;
+    height: auto;
     object-fit: contain;
-    border-radius: 1rem;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
 /* Si une seule image, elle peut prendre plus de place */
 .main-content :deep(p:has(img:only-child)) img {
-    max-width: 90%;
+    display: block;
+    margin: 0;
+    max-height: calc(100vh - 34rem);
+    max-width: 80%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Videos */
+.main-content :deep(video) {
+    display: block;
+    margin: 0 auto;
+    max-height: calc(100vh - 22rem);
+    max-width: 45%;
+    width: auto;
+    object-fit: contain;
 }
 
 /* Container du tableau */

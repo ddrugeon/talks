@@ -50,58 +50,60 @@ const props = defineProps({
     width: 100%;
     height: 100%;
     background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .content-wrapper {
-    position: absolute;
-    inset: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0;
+    display: contents;
 }
 
 .text-content {
-    position: relative;
     display: flex;
     flex-direction: column;
     background: white;
+    height: 100%;
 }
 
 .header-wrapper {
-    position: relative;
-    z-index: 10;
+    flex-shrink: 0;
 }
 
-/* Texte centré - ajusté pour vraiment être au centre */
+/* Texte centré verticalement */
 .text-wrapper {
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 0 4rem;
-    margin-top: -20rem; /* Décale vers le haut pour compenser le header */
-    margin-bottom: 4rem; /* Espace pour le footer */
+    justify-content: flex-start;
+    padding: 0 4rem 6rem 4rem;
 }
 
 .text-wrapper :deep(p) {
+    color: var(--wescale-navy);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 0 0 1rem 0;
+}
+
+.text-wrapper :deep(strong) {
     color: var(--wescale-teal);
-    font-size: 2.5rem;
-    font-weight: 600;
-    line-height: 1.4;
-    margin: 0;
+    font-weight: 700;
 }
 
 .image-content {
     position: relative;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 }
+
 .image-content img {
     position: absolute;
-    right: 0; /* Colle au bord droit */
     top: 0;
-    width: 80%;
-    height: 80%;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: center center;
 }

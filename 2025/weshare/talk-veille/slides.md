@@ -25,6 +25,24 @@ Prêts alors à reprendre le contrôle de votre veille ?
 -->
 
 ---
+layout: profile
+section: "00"
+sectionName: "David Drugeon-Hamon"
+slideName: "Qui suis-je ?"
+experience: "27 ans"
+quote: "KISS: Keep it simple, stupid."
+image: "/images/photo-david.jpg"
+---
+
+- Développeur aguéri, Lead SRE et Cloud Architect
+- Bretteur et accordéoniste à ses heures perdues
+- Blogueur
+
+<template #aside>
+  <img src="/images/qrcode-blog.png" alt="QR Code" />
+</template>
+
+---
 layout: toc
 ---
 
@@ -53,8 +71,7 @@ sectionName: "Introduction"
 slideName: "Le constat"
 ---
 
-
-<img src="/images/vivaldi-tabs.png" class="h-100 mx-auto" alt="Vivaldi browser avec plusieurs onglets ouverts"/>
+<img src="/images/vivaldi-tabs.png" alt="Vivaldi browser avec plusieurs onglets ouverts"/>
 
 <!--
 Alors comme beaucoup, je lis des articles de blogs, j'écoute des podcasts,
