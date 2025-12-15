@@ -47,7 +47,7 @@ const props = defineProps({
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 4rem 4rem 4rem;
+    padding: 0 4vw 4vh 4vw;
     overflow: auto;
 }
 
@@ -56,7 +56,7 @@ const props = defineProps({
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2.5rem;
+    gap: 2vw;
     margin: 0;
     flex-wrap: wrap;
     flex: 1;
@@ -66,8 +66,8 @@ const props = defineProps({
 .main-content :deep(img) {
     display: block;
     margin: 0;
-    max-height: calc(100vh - 60rem);
-    max-width: 50%;
+    max-height: 45vh;
+    max-width: 40vw;
     width: auto;
     height: auto;
     object-fit: contain;
@@ -77,8 +77,8 @@ const props = defineProps({
 .main-content :deep(p:has(img:only-child)) img {
     display: block;
     margin: 0;
-    max-height: calc(100vh - 34rem);
-    max-width: 80%;
+    max-height: 70vh;
+    max-width: 45vw;
     width: auto;
     height: auto;
     object-fit: contain;
@@ -88,8 +88,8 @@ const props = defineProps({
 .main-content :deep(video) {
     display: block;
     margin: 0 auto;
-    max-height: calc(100vh - 22rem);
-    max-width: 45%;
+    max-height: 45vh;
+    max-width: 40vw;
     width: auto;
     object-fit: contain;
 }
