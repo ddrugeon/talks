@@ -412,16 +412,19 @@ talks (internes et externes) comme celui-ci
 </div>
 
 ---
-layout: top-title
+layout: top-title-two-cols
 color: navy
-align: l
 ---
 
 :: title ::
 
 # De la note à l'article
 
-:: content ::
+:: left ::
+
+<img src="/images/article-draft.png" alt="Article de blog produit depuis Obsidian" class="h-72 mx-auto rounded-xl shadow-md"/>
+
+:: right ::
 
 <img src="/images/article-blog.png" alt="Article de blog produit depuis Obsidian" class="h-72 mx-auto rounded-xl shadow-md"/>
 
