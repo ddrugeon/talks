@@ -313,6 +313,14 @@ La destination finale :
 - Vault PARA structuré
 <div class="mt-4 text-xs font-mono bg-emerald-50 border border-emerald-200 rounded px-2 py-1 text-emerald-700">je ne fais rien manuellement</div>
 
+:: notes ::
+
+PARA = Projects, Areas, Resources, Archive. C'est la méthode de structuration proposée par Tiago Forte dans "Building a Second Brain".
+- **Projects** : travaux avec une date limite et un objectif
+- **Areas** : domaines de responsabilité continu (tech, santé, finances)
+- **Resources** : collections de références utiles pour l'avenir
+- **Archive** : projets/areas terminés, mais conservés pour référence
+
 ---
 layout: top-title-two-cols
 color: navy
