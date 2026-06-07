@@ -81,12 +81,16 @@ Référencer dans slides.md : `<img src="/images/mon-image.png" />`
    bun run export  # Génère PDF
    ```
 
+**Notes speaker :** Utilisez `:: notes ::` pour contexte/explications — ça n'apparait pas à l'écran mais aide le présentateur à retenir les points clés.
+
 ## Gotchas
 
 - ⚠️ Thème est `neversink`, pas un thème standard Slidev
 - ⚠️ Syntaxe `:: notes ::` est **spécifique à neversink** (pas des commentaires HTML `<!-- -->`)
 - ⚠️ `package.json` minimaliste — pour ajouter des dépendances, utiliser `bun add`
 - ⚠️ Export PDF nécessite playwright — peut prendre du temps la première fois
+- ⚠️ `slides.md` peut être modifiée par un hook/linter — vérifier git diff après commit
+- ⚠️ Démos vidéo — utiliser `[//]: # (<video ...>)` commenté au lieu de `<StickyNote>` rouge pour les TODO : plus propre à merge/refactor
 
 ## Structure du projet
 
