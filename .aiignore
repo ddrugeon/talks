@@ -1,0 +1,16 @@
+# Generated / build output
+**/node_modules/
+**/dist/
+**/.vite-inspect/
+**/.remote-assets/
+**/components.d.ts
+
+# Lock files (generated, large, not useful for AI context)
+**/pnpm-lock.yaml
+**/bun.lock
+
+# Binary exports
+**/*.pdf
+
+# macOS
+**/.DS_Store
