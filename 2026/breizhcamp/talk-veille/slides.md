@@ -249,107 +249,38 @@ align: l
 ---
 layout: top-title-two-cols
 color: navy
+columns: is-6
 align: l-lt-lt
 ---
 
 :: title ::
 
-# Capturer l'écrit — Readwise Reader
+# Capture multi-sources
 
 :: left ::
 
-<img src="/images/reader.png" alt="Readwise Reader" class="rounded-xl shadow-md w-full"/>
+### Écrit
+Extension navigateur → 1 clic
+
+<img src="/images/reader.png" alt="Capture d'articles" class="rounded-xl shadow-md w-full mt-2"/>
+
+**Active :** surligner + commenter
 
 :: right ::
 
-**Ce que ça fait :**
+### Audio
+Podcasts sans les mains
 
-<StepsList
-    :steps="[
-      { text: 'Extension navigateur → capture en 1 clic' },
-      { text: 'Lecture active avec surlignage et commentaires' },
-      { text: '**Ghostreader** : résumé IA intégré' },
-    ]"
-    color="stone"
-    number-color="navy"
-    :show-border="false"
-  />
+- Double-tap sur les écouteurs
+- Transcription automatique
+- Sync vers le système central
 
-
+**Résultat :** notes partout, peu importe le format
 
 <StickyNote color="amber-light" textAlign="left" width="180px" title="💡- Ma règle">
 <br/>
 si ça ne vaut pas la peine d'être surligné, ça ne vaut pas la peine d'être lu.
 </StickyNote>
-
----
-layout: top-title
-color: navy
----
-
-:: title ::
-
-# Démo de Readwise Reader
-
-:: content ::
-
-<StickyNote color="red-light" textAlign="left" width="180px" title="TODO">
-<br/>
-Insérer une vidéo de reader
-</StickyNote>
-
-[//]: # (<video src="/videos/reader-demo.mp4" controls autoplay muted loop class="w-full h-full object-contain rounded-xl"></video>)
-
-:: notes ::
-
-Démo pré-enregistrée — 90 secondes max.
-Commenter à l'oral pendant la diffusion.
-Si la vidéo plante, la slide Reader précédente suffit.
-
----
-layout: top-title-two-cols
-color: navy-light
-align: l-lt-lt
----
-
-:: title ::
-
-# Capturer les podcasts — Snipd
-
-:: left ::
-
-<img src="/images/snipd-1.png" alt="Snipd" class="rounded-xl shadow-md w-full"/>
-
-:: right ::
-
-**Sans les mains :**
-
-- Double-tap sur les écouteurs
-- L'IA transcrit automatiquement
-- Résumé généré instantanément
-- Sync automatique → Readwise
-
-<StickyNote color="amber-light" textAlign="left" width="180px" title="💡- Tips">
-<br/>
-  🎧 J'écoute en courant. Je prends des notes sans m'arrêter.
-</StickyNote>
----
-layout: top-title
-color: navy
----
-
-:: title ::
-
-# Démo de Snipd
-
-:: content ::
-
-<StickyNote color="red-light" textAlign="left" width="180px" title="TODO">
-<br/>
-Insérer une vidéo de snipd
-</StickyNote>
-
-[//]: # (<video src="/videos/snipd.mp4" controls autoplay muted loop class="w-full h-full object-contain rounded-xl"></video>)
 
 ---
 layout: top-title-two-cols
@@ -391,24 +322,24 @@ align: l-lt-lt
 
 :: title ::
 
-# Traiter avec l'IA — Claude
+# Traiter — enrichir avec l'IA
 
 :: left ::
 
-**Note brute (highlight Readwise) :**
+**Note brute :**
 
-<div class="mt-3 p-3 bg-white border border-slate-200 rounded-lg text-sm text-slate-600 font-mono leading-relaxed">
-"Kubernetes admission webhooks allow you to intercept API requests and mutate or validate objects..."
+<div class="mt-3 p-3 bg-white border border-slate-200 rounded-lg text-sm text-slate-600 font-mono leading-relaxed text-xs">
+"Kubernetes admission webhooks allow you to intercept API requests..."
 </div>
 
 :: right ::
 
-**Après traitement Claude :**
+**Après enrichissement :**
 
 <div class="mt-3 p-3 bg-emerald-50 border border-emerald-200 rounded-lg text-sm space-y-2">
-  <div><span class="font-mono text-xs text-emerald-700 font-bold">TAGS</span><br/><code class="text-xs">#kubernetes #security #webhooks</code></div>
-  <div><span class="font-mono text-xs text-emerald-700 font-bold">RÉSUMÉ</span><br/><span class="text-slate-600 text-xs">Les admission webhooks interceptent les requêtes API K8s pour valider ou muter les objets avant persistance.</span></div>
-  <div><span class="font-mono text-xs text-emerald-700 font-bold">CONNEXIONS</span><br/><code class="text-xs">[[Cilium]] · [[OPA Gatekeeper]]</code></div>
+  <div><span class="font-mono text-xs text-emerald-700 font-bold">TAGS</span><br/><code class="text-xs">#kubernetes #security</code></div>
+  <div><span class="font-mono text-xs text-emerald-700 font-bold">RÉSUMÉ</span><br/><span class="text-slate-600 text-xs">Intercepter les requêtes API pour valider/muter les objets</span></div>
+  <div><span class="font-mono text-xs text-emerald-700 font-bold">CONNEXIONS</span><br/><code class="text-xs">[[OPA]] · [[Gatekeeper]]</code></div>
 </div>
 
 :: notes ::
@@ -424,11 +355,11 @@ align: l
 
 :: title ::
 
-# Obsidian — une note réelle
+# Stockage & Connectivité — une note réelle
 
 :: content ::
 
-<img src="/images/obsidian.png" alt="Obsidian" class="h-72 mx-auto rounded-xl shadow-md"/>
+<img src="/images/obsidian.png" alt="Note avec connexions" class="h-72 mx-auto rounded-xl shadow-md"/>
 
 ---
 layout: section
