@@ -213,6 +213,40 @@ Ces notes deviennent des articles, des talks, des solutions concrètes.
 </StepCard>
 
 ---
+layout: top-title
+color: navy
+align: l
+---
+
+:: title ::
+
+# La première barrière — Sélectionner vos sources
+
+:: content ::
+
+<StepsList
+    :steps="[
+      { text: 'Listez vos sources actuelles', subtitle: 'Newsletters, podcasts, blogs, réseaux sociaux...' },
+      { text: 'Gardez seulement celles qui créent de la valeur', subtitle: 'Pas des sources par inertie ou FOMO' },
+      { text: 'Fixez un nombre maximum', subtitle: '3-5 newsletters, 2-5 podcasts. Pas plus.' },
+      { text: 'Révisez trimestriellement', subtitle: 'Désinscrivez ce qui ne sert plus' },
+    ]"
+    color="stone"
+    number-color="navy"
+    :show-border="true"
+  />
+
+<StickyNote color="amber-light" textAlign="left" width="200px" title="💡- Règle">
+<br/>
+Avant de mettre en place un système, la vraie victoire est de dire NON. Peu de sources de qualité > beaucoup de sources de bruit.
+</StickyNote>
+
+:: notes ::
+
+C'est contre-intuitif mais la clé n'est pas de consommer plus. C'est de consommer moins et mieux.
+Si vous ajoutez un système sans d'abord élaguer vos sources, vous gardez juste le même bruit organisé.
+
+---
 layout: section
 color: navy
 ---
