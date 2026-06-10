@@ -1,0 +1,67 @@
+/* Thème Matrix — BreizhCamp 2026
+   Fond blanc/navy, texte noir, accent vert néon #00FF41 */
+
+/* --- Variables de base --- */
+.neversink-matrix-scheme {
+  --neversink-bg-color: #ffffff;
+  --neversink-bg-code-color: #f0faf0;
+  --neversink-fg-code-color: #1a1a1a;
+  --neversink-fg-color: #0f1b2d;
+  --neversink-text-color: #1a1a1a;
+  --neversink-border-color: #00ff41;
+  --neversink-highlight-color: #00cc33;
+  --neversink-admon-bg-color: #f0faf0;
+  --neversink-admon-border-color: #00ff41;
+  --neversink-admon-text-color: #1a1a1a;
+}
+
+/* --- Cover : fond blanc, texte noir, ligne verte --- */
+.slidev-layout.cover.slidecolor.neversink-matrix-scheme {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+/* --- Section : même look que la cover (fond blanc, texte noir, hr vert) --- */
+.slidev-layout.section.slidecolor.neversink-matrix-scheme {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+/* Override les hr inline (border-white/30) en vert dans les sections */
+.slidev-layout.section.neversink-matrix-scheme hr {
+  border-color: #00ff41 !important;
+  opacity: 1 !important;
+}
+
+/* --- Quote : fond navy dans le carré, texte blanc, bordure verte 2px --- */
+.quotecolor.neversink-matrix-scheme {
+  background-color: #0f1b2d;
+  color: #ffffff;
+  border-width: 2px;
+}
+
+/* --- top-title : seule la barre de titre est navy, bordure verte en bas --- */
+.slidecolor.neversink-matrix-scheme:not(.slidev-layout) {
+  background-color: #0f1b2d;
+  color: #ffffff;
+  border-bottom: 3px solid #00ff41;
+}
+
+/* Variante "light" utilisée par StepsList pour ses cartes */
+.neversink-matrix-light-scheme {
+  --neversink-bg-color: #f8f8f8;
+  --neversink-bg-code-color: #f0faf0;
+  --neversink-fg-code-color: #1a1a1a;
+  --neversink-fg-color: #00ff41;
+  --neversink-text-color: #1a1a1a;
+  --neversink-border-color: #00ff41;
+  --neversink-highlight-color: #00cc33;
+  --neversink-admon-bg-color: #f0faf0;
+  --neversink-admon-border-color: #00ff41;
+  --neversink-admon-text-color: #1a1a1a;
+}
+
+/* StepsList : bg-white codé en dur dans les cartes — on le laisse blanc */
+.neversink-matrix-light-scheme .bg-white {
+  background-color: #ffffff !important;
+}

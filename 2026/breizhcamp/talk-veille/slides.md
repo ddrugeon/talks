@@ -1,7 +1,7 @@
 ---
 theme: neversink
 layout: cover
-color: white
+color: matrix
 ---
 
 <img src="/logos/breizhcamp-logo-2024.svg" class="absolute top-6 right-6 h-12"/>
@@ -12,7 +12,7 @@ David Drugeon-Hamon - juin 2026
 
 ---
 layout: top-title
-color: emerald-light
+color: matrix
 ---
 
 :: title ::
@@ -41,7 +41,7 @@ Dans ce talk, je vais vous présenter le processus de veille qui m'a permis de c
 
 ---
 layout: top-title-two-cols
-color: emerald-light
+color: matrix
 ---
 :: title ::
 
@@ -69,7 +69,7 @@ Court — 30 secondes max. Les chiffres de production parlent déjà pour toi.
 
 ---
 layout: top-title-two-cols
-color: emerald-light
+color: matrix
 ---
 
 :: title ::
@@ -86,14 +86,14 @@ color: emerald-light
       { text: '02 - Le système' },
       { text: '03 - Par où commencer' },
     ]"
-    color="stone"
-    number-color="emerald-light"
+    color="matrix"
+    number-color="#00ff41"
     :show-border="false"
   />
 
 :: right ::
 
-<StickyNote color="emerald-light" textAlign="left" width="180px" title="💡- But">
+<StickyNote color="matrix" textAlign="left" width="180px" title="💡- But">
 <br/>
 Dans 25 minutes, vous repartez avec quelque chose d'installable ce soir.
 </StickyNote>
@@ -104,7 +104,7 @@ Vingt-cinq minutes. On va vite. Trois parties : le diagnostic, le système, l'ac
 
 ---
 layout: section
-color: emerald-light
+color: matrix
 ---
 
 # 01 · Le constat & la philosophie
@@ -119,7 +119,7 @@ Pause. Respirer. Ce titre dit tout — on part du constat (le problème que tout
 
 ---
 layout: top-title-two-cols
-color: emerald-light
+color: matrix
 columns: is-6
 align: l-lt-lt
 ---
@@ -138,8 +138,8 @@ align: l-lt-lt
       { text: 'Oublier' },
       { text: 'Consommer' },
     ]"
-    color="stone"
-    number-color="emerald-light"
+    color="matrix"
+    number-color="#00ff41"
     :show-border="false"
   />
 
@@ -153,8 +153,8 @@ align: l-lt-lt
       { text: 'Connecter les informations entre elles' },
       { text: 'Créer du contenu' },
     ]"
-    color="stone"
-    number-color="emerald-light"
+    color="matrix"
+    number-color="#00ff41"
     :show-border="true"
   />
 
@@ -165,7 +165,7 @@ C'est un problème de système. Et les systèmes, ça se conçoit."
 
 ---
 layout: quote
-color: emerald-light
+color: matrix
 author: Tiago Forte
 ---
 
@@ -180,7 +180,7 @@ faut se l'approprier et adapter à ses besoins.
 
 ---
 layout: top-title
-color: emerald-light
+color: matrix
 align: l
 ---
 
@@ -197,12 +197,12 @@ align: l
       { text: 'Fixez un nombre maximum', subtitle: '3-5 newsletters, 2-5 podcasts. Pas plus.' },
       { text: 'Révisez trimestriellement', subtitle: 'Désinscrivez ce qui ne sert plus' },
     ]"
-    color="stone"
-    number-color="emerald-light"
+    color="matrix"
+    number-color="#00ff41"
     :show-border="false"
   />
 
-<StickyNote color="emerald-light" textAlign="left" width="200px" title="💡- Règle">
+<StickyNote color="matrix" textAlign="left" width="200px" title="💡- Règle">
 <br/>
 Avant de mettre en place un système, la vraie victoire est de dire NON. Peu de sources de qualité > beaucoup de sources de bruit.
 </StickyNote>
@@ -214,7 +214,7 @@ Si vous ajoutez un système sans d'abord élaguer vos sources, vous gardez juste
 
 ---
 layout: top-title-three-cols
-color: emerald-light
+color: matrix
 ---
 
 :: title ::
@@ -245,7 +245,7 @@ Capturer, traiter, créer. Tout ce qu'on verra ensuite — les outils, les workf
 
 ---
 layout: section
-color: emerald-light
+color: matrix
 ---
 
 # 02 · Le système
@@ -260,7 +260,7 @@ Pivot. On quitte la philosophie pour entrer dans la salle des machines. Je vais 
 
 ---
 layout: top-title
-color: emerald-light
+color: matrix
 align: l
 ---
 
@@ -282,7 +282,7 @@ align: l
 
 ---
 layout: top-title-two-cols
-color: emerald-light
+color: matrix
 columns: is-6
 align: l-lt-lt
 ---
@@ -311,7 +311,7 @@ Podcasts sans les mains
 
 **Résultat :** notes partout, peu importe le format
 
-<StickyNote color="emerald-light" textAlign="left" width="180px" title="💡- Ma règle">
+<StickyNote color="matrix" textAlign="left" width="180px" title="💡- Ma règle">
 <br/>
 si ça ne vaut pas la peine d'être surligné, ça ne vaut pas la peine d'être lu.
 </StickyNote>
@@ -323,7 +323,7 @@ Deux gestes de capture. Pour le texte : l'extension navigateur, un clic, l'artic
 ---
 layout: top-title-two-cols
 color:
-color: emerald-light
+color: matrix
 columns: is-6
 align: l-lt-lt
 ---
@@ -361,7 +361,7 @@ PARA = Projects, Areas, Resources, Archive. C'est la méthode de structuration p
 
 ---
 layout: top-title-two-cols
-color: emerald-light
+color: matrix
 columns: is-6
 align: l-lt-lt
 ---
@@ -395,7 +395,7 @@ Je valide, j'ajuste, et je passe à la création."
 
 ---
 layout: top-title
-color: emerald-light
+color: matrix
 align: l
 ---
 
@@ -413,7 +413,7 @@ Une note réelle. Tags automatiques, résumé généré par Claude, connexions v
 
 ---
 layout: top-title-two-cols
-color: emerald-light
+color: matrix
 ---
 
 :: title ::
@@ -428,7 +428,7 @@ color: emerald-light
 
 <img src="/images/article-blog.png" alt="Article de blog produit depuis Obsidian" class="h-60 mx-auto rounded-xl shadow-md"/>
 
-<StickyNote color="emerald-light" textAlign="left" width="220px" title="💡">
+<StickyNote color="matrix" textAlign="left" width="220px" title="💡">
 <br/>
 Ce talk est né d'une note Obsidian connectée à 3 highlights de podcasts différents.
 </StickyNote>
@@ -439,7 +439,7 @@ Ce talk est né d'une note Obsidian connectée à 3 highlights de podcasts diff�
 
 ---
 layout: section
-color: emerald-light
+color: matrix
 ---
 
 # 03 · Par où commencer
@@ -454,7 +454,7 @@ Dernière ligne droite. On a vu le pourquoi, le quoi, le comment. La vraie quest
 
 ---
 layout: top-title-two-cols
-color: emerald-light
+color: matrix
 columns: is-6
 align: l-lt-lt
 ---
@@ -486,7 +486,7 @@ La transparence sur le coût évite la déception. Readwise est le seul outil pa
 
 ---
 layout: top-title
-color: emerald-light
+color: matrix
 align: l
 ---
 
@@ -502,8 +502,8 @@ align: l
       { text: 'L\'outil n\'est pas la finalité', subtitle: 'Le système sert la création, pas l\'inverse. Configurer Obsidian n\'est pas faire de la veille.' },
       { text: 'Faites-vous plaisir', subtitle: 'Si votre veille ressemble à une corvée, vous abandonnerez.' },
     ]"
-    color="stone"
-    number-color="emerald-light"
+    color="matrix"
+    number-color="#00ff41"
     :show-border="true"
   />
 
@@ -513,7 +513,7 @@ Ces trois erreurs, je les ai faites. Installer les quatre outils le même week-e
 
 ---
 layout: top-title
-color: emerald-light
+color: matrix
 align: l
 ---
 
@@ -530,8 +530,8 @@ align: l
       { text: 'Lisez un article' },
       { text: 'Surlignez trois passages' },
     ]"
-    color="stone"
-    number-color="emerald-light"
+    color="matrix"
+    number-color="#00ff41"
     :show-border="true"
   />
 
@@ -545,7 +545,7 @@ Le reste vient après."
 
 ---
 layout: top-title-two-cols
-color: emerald-light
+color: matrix
 ---
 
 :: title ::
@@ -573,7 +573,7 @@ Mentionner l'article de blog pour le workflow complet et le prompt Claude.
 
 ---
 layout: section
-color: emerald-light
+color: matrix
 ---
 
 :: title ::
