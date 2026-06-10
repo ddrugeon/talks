@@ -4,13 +4,9 @@ layout: cover
 color: navy
 ---
 
-# Comment je fais ma veille technologique
+## Comment je fais ma veille technologique : De l'indigestion à la création
 
-De l'indigestion à la création
-
-:: notes ::
-
-Ouvrir directement sur l'anecdote — pas de bonjour d'abord. Contact visuel avec la salle.
+David Drugeon-Hamon - 2026
 
 ---
 layout: top-title
@@ -100,6 +96,10 @@ color: navy
 Dans 25 minutes, vous repartez avec quelque chose d'installable ce soir.
 </StickyNote>
 
+:: notes ::
+
+Vingt-cinq minutes. On va vite. Trois parties : le diagnostic, le système, l'action. Pas de théorie sans pratique — chaque partie se termine avec quelque chose de concret.
+
 ---
 layout: section
 color: navy
@@ -110,6 +110,10 @@ color: navy
 <hr class="border-white/30"/>
 
 Du problème à l'état d'esprit qui change tout.
+
+:: notes ::
+
+Pause. Respirer. Ce titre dit tout — on part du constat (le problème que tout le monde reconnaît) pour arriver à l'état d'esprit qui rend le système possible.
 
 ---
 layout: top-title-two-cols
@@ -233,6 +237,10 @@ Lire activement, surligner, connecter les idées entre elles.
 Ces notes deviennent des articles, des talks, des solutions concrètes.
 </StepCard>
 
+:: notes ::
+
+Capturer, traiter, créer. Tout ce qu'on verra ensuite — les outils, les workflows, les habitudes — c'est l'implémentation concrète de ces trois verbes. Si vous ne retenez qu'une chose de ce talk, c'est ce triangle-là. Pointer chaque carte en la nommant.
+
 ---
 layout: section
 color: navy
@@ -244,6 +252,9 @@ color: navy
 
 Les outils qui font tourner la machine
 
+:: notes ::
+
+Pivot. On quitte la philosophie pour entrer dans la salle des machines. Je vais vous montrer le système exact — les quatre outils, comment ils s'enchaînent, pourquoi ceux-là et pas d'autres.
 
 ---
 layout: top-title
@@ -302,6 +313,10 @@ Podcasts sans les mains
 <br/>
 si ça ne vaut pas la peine d'être surligné, ça ne vaut pas la peine d'être lu.
 </StickyNote>
+
+:: notes ::
+
+Deux gestes de capture. Pour le texte : l'extension navigateur, un clic, l'article entre dans le système — pas dans un onglet. Pour l'audio : double-tap sur les écouteurs pendant le podcast, Snipd transcrit et synchronise automatiquement. Principe commun : friction zéro, sinon on ne le fait pas.
 
 ---
 layout: top-title-two-cols
@@ -390,6 +405,10 @@ align: l
 
 <img src="/images/obsidian.png" alt="Note avec connexions" class="h-72 mx-auto rounded-xl shadow-md"/>
 
+:: notes ::
+
+Une note réelle. Tags automatiques, résumé généré par Claude, connexions vers d'autres notes de la vault. Ce n'est pas de l'archivage — c'est un réseau d'idées qui grossit à chaque lecture. Plus la vault est ancienne, plus les connexions sont pertinentes.
+
 ---
 layout: top-title-two-cols
 color: navy
@@ -412,6 +431,10 @@ color: navy
 Ce talk est né d'une note Obsidian connectée à 3 highlights de podcasts différents.
 </StickyNote>
 
+:: notes ::
+
+À gauche : le brouillon dans Obsidian, construit depuis des highlights et des notes connectées. À droite : l'article publié. Entre les deux : quelques heures de travail, pas quelques semaines de procrastination. Pointer la StickyNote — ce talk lui-même est le meilleur exemple.
+
 ---
 layout: section
 color: navy
@@ -423,6 +446,9 @@ color: navy
 
 Un seul geste ce soir.
 
+:: notes ::
+
+Dernière ligne droite. On a vu le pourquoi, le quoi, le comment. La vraie question maintenant : qu'est-ce que vous faites ce soir concrètement ? Pas dans une semaine, ce soir.
 
 ---
 layout: top-title-two-cols
@@ -452,6 +478,10 @@ align: l-lt-lt
 | Routine quotidienne | 10-15 min |
 | Routine hebdomadaire | 1 heure |
 
+:: notes ::
+
+La transparence sur le coût évite la déception. Readwise est le seul outil payant obligatoire si on veut la sync automatique. Obsidian est gratuit, Snipd a un tier gratuit. Setup minimum pour démarrer ce soir : Readwise Reader uniquement — le reste peut attendre.
+
 ---
 layout: top-title
 color: navy
@@ -474,6 +504,10 @@ align: l
     number-color="navy"
     :show-border="true"
   />
+
+:: notes ::
+
+Ces trois erreurs, je les ai faites. Installer les quatre outils le même week-end, passer plus de temps à configurer Obsidian qu'à l'utiliser, transformer la veille en devoir jusqu'à l'abandonner en janvier. Commencez petit. Un outil. Un geste.
 
 ---
 layout: top-title
@@ -543,3 +577,6 @@ color: navy
 :: title ::
 Questions ?
 
+:: notes ::
+
+Laisser la slide visible. Ne pas fermer le laptop. Si la salle est silencieuse, amorcer avec : "Est-ce que certains d'entre vous ont déjà un système de veille ? Qu'est-ce qui bloque ?" Mentionner l'article de blog pour le workflow complet et le prompt Claude.

@@ -28,12 +28,12 @@ const colorClass = `neversink-${props.color}${props.variant === 'regular' ? '' :
 </script>
 
 <template>
-  <div class="flex flex-col items-center gap-6 mt-6">
-    <div class="flex flex-col gap-3 w-full max-w-lg" :class="colorClass">
+  <div class="flex flex-col items-center gap-5 mt-5">
+    <div class="flex flex-col gap-2 w-full max-w-lg" :class="colorClass">
       <div
         v-for="(step, index) in steps"
         :key="index"
-        class="flex items-start gap-4 p-4 rounded-xl bg-white shadow-sm transition-all"
+        class="flex items-start gap-4 p-3 rounded-xl bg-white shadow-sm transition-all"
         :style="{
           borderColor: props.showBorder ? 'var(--neversink-fg-color)' : 'transparent',
           borderWidth: '2px',
