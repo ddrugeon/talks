@@ -158,6 +158,21 @@ align: l-lt-lt
 C'est un problème de système. Et les systèmes, ça se conçoit."
 
 ---
+layout: quote
+color: navy
+author: Tiago Forte
+---
+
+"La clé pour que vos notes survivent à leur voyage dans l'avenir est qu'elles soient **découvrables**"
+
+:: notes ::
+
+Tiago Forte est auteur du livre "Building a second brain (2022)" propose une méthode 
+pour organiser son savoir et ses idées en prenant des notes. Même si il conseille une
+méthodologie basée sur la capture, le traitement et la diffusion des informations, il
+faut se l'approprier et adapter à ses besoins.
+
+---
 layout: top-title
 color: navy
 align: l
@@ -190,21 +205,6 @@ Avant de mettre en place un système, la vraie victoire est de dire NON. Peu de 
 
 C'est contre-intuitif mais la clé n'est pas de consommer plus. C'est de consommer moins et mieux.
 Si vous ajoutez un système sans d'abord élaguer vos sources, vous gardez juste le même bruit organisé.
-
----
-layout: quote
-color: navy
-author: Tiago Forte
----
-
-"La clé pour que vos notes survivent à leur voyage dans l'avenir est qu'elles soient **découvrables**"
-
-:: notes ::
-
-Tiago Forte est auteur du livre "Building a second brain (2022)" propose une méthode 
-pour organiser son savoir et ses idées en prenant des notes. Même si il conseille une
-méthodologie basée sur la capture, le traitement et la diffusion des informations, il
-faut se l'approprier et adapter à ses besoins.
 
 ---
 layout: top-title-three-cols
