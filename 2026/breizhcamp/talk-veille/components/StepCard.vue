@@ -31,7 +31,7 @@ defineProps({
   align-items: center;
   text-align: center;
   padding: 1.5rem;
-  border: 2px solid #5dd9c1;
+  border: 2px solid #00ff41;
   border-radius: 1rem;
   gap: 1rem;
   height: 100%;
@@ -55,7 +55,7 @@ defineProps({
 
 .step-content {
   font-size: 0.95rem;
-  color: #666;
+  color: #0f1b2d;
   margin: 0;
   line-height: 1.5;
   flex-grow: 1;
