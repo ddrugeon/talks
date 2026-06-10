@@ -6,7 +6,7 @@ color: navy
 
 # Comment je fais ma veille technologique
 
-De l'indigestion au déploiement
+De l'indigestion à la création
 
 :: notes ::
 
@@ -36,7 +36,7 @@ Des vidéos Devoxx en 'watch later'. Des PDFs téléchargés 'au cas où'.
 Le problème ? Je n'ai jamais rouvert aucun de ces onglets.
 Ce que je faisais, ce n'était pas de la veille. C'était de la thésaurisation numérique.
 
-En 18 mois avec un système différent : 20 articles, 12 newsletters, 3 talks dont celui-ci.
+En 1 an avec un système différent : 20 articles, 12 newsletters, 3 talks dont celui-ci.
 Aujourd'hui, je ne vais pas vous mentir mais je n'ai pas encore zéro onglet ouvert mais je me soigne.
 
 Dans ce talk, je vais vous présenter le processus de veille qui m'a permis de créer du contenu."
@@ -84,11 +84,9 @@ color: navy
 
 <StepsList
     :steps="[
-      { text: '01 - Le problème' },
-      { text: '02 - La philosophie' },
-      { text: '03 - Le système' },
-      { text: '04 - La preuve' },
-      { text: '05 - Par où commencer' },
+      { text: '01 - Le constat & la philosophie' },
+      { text: '02 - Le système' },
+      { text: '03 - Par où commencer' },
     ]"
     color="stone"
     number-color="navy"
@@ -107,11 +105,11 @@ layout: section
 color: navy
 ---
 
-# 01 · Le problème
+# 01 · Le constat & la philosophie
 
 <hr class="border-white/30"/>
 
-Pourquoi votre veille actuelle ne fonctionne pas.
+Du problème à l'état d'esprit qui change tout.
 
 ---
 layout: top-title-two-cols
@@ -160,15 +158,38 @@ align: l-lt-lt
 C'est un problème de système. Et les systèmes, ça se conçoit."
 
 ---
-layout: section
+layout: top-title
 color: navy
+align: l
 ---
 
-# 02 · La philosophie
+:: title ::
 
-<hr class="border-white/30"/>
+# La première barrière — Sélectionner vos sources
 
-Le principe qui change tout.
+:: content ::
+
+<StepsList
+    :steps="[
+      { text: 'Listez vos sources actuelles', subtitle: 'Newsletters, podcasts, blogs, réseaux sociaux...' },
+      { text: 'Gardez seulement celles qui créent de la valeur', subtitle: 'Pas des sources par inertie ou FOMO' },
+      { text: 'Fixez un nombre maximum', subtitle: '3-5 newsletters, 2-5 podcasts. Pas plus.' },
+      { text: 'Révisez trimestriellement', subtitle: 'Désinscrivez ce qui ne sert plus' },
+    ]"
+    color="stone"
+    number-color="navy"
+    :show-border="false"
+  />
+
+<StickyNote color="amber-light" textAlign="left" width="200px" title="💡- Règle">
+<br/>
+Avant de mettre en place un système, la vraie victoire est de dire NON. Peu de sources de qualité > beaucoup de sources de bruit.
+</StickyNote>
+
+:: notes ::
+
+C'est contre-intuitif mais la clé n'est pas de consommer plus. C'est de consommer moins et mieux.
+Si vous ajoutez un système sans d'abord élaguer vos sources, vous gardez juste le même bruit organisé.
 
 ---
 layout: quote
@@ -213,45 +234,11 @@ Ces notes deviennent des articles, des talks, des solutions concrètes.
 </StepCard>
 
 ---
-layout: top-title
-color: navy
-align: l
----
-
-:: title ::
-
-# La première barrière — Sélectionner vos sources
-
-:: content ::
-
-<StepsList
-    :steps="[
-      { text: 'Listez vos sources actuelles', subtitle: 'Newsletters, podcasts, blogs, réseaux sociaux...' },
-      { text: 'Gardez seulement celles qui créent de la valeur', subtitle: 'Pas des sources par inertie ou FOMO' },
-      { text: 'Fixez un nombre maximum', subtitle: '3-5 newsletters, 2-5 podcasts. Pas plus.' },
-      { text: 'Révisez trimestriellement', subtitle: 'Désinscrivez ce qui ne sert plus' },
-    ]"
-    color="stone"
-    number-color="navy"
-    :show-border="true"
-  />
-
-<StickyNote color="amber-light" textAlign="left" width="200px" title="💡- Règle">
-<br/>
-Avant de mettre en place un système, la vraie victoire est de dire NON. Peu de sources de qualité > beaucoup de sources de bruit.
-</StickyNote>
-
-:: notes ::
-
-C'est contre-intuitif mais la clé n'est pas de consommer plus. C'est de consommer moins et mieux.
-Si vous ajoutez un système sans d'abord élaguer vos sources, vous gardez juste le même bruit organisé.
-
----
 layout: section
 color: navy
 ---
 
-# 03 · Le système
+# 02 · Le système
 
 <hr class="my-4 border-white/30"/>
 
@@ -404,48 +391,6 @@ align: l
 <img src="/images/obsidian.png" alt="Note avec connexions" class="h-72 mx-auto rounded-xl shadow-md"/>
 
 ---
-layout: section
-color: navy
----
-# 04 · La preuve
-
-<hr class="my-4 border-white/30"/>
-
-Ce que le système produit concrètement
-
----
-layout: top-title-three-cols
-color: navy
----
-
-:: title ::
-
-# Ce que ce système a produit
-
-:: left ::
-
-<StepCard title="XX">
-articles écrits sur mon blog
-</StepCard>
-
-:: center ::
-
-<StepCard title="XX">
-Newsletters mensuelles 
-</StepCard>
-
-:: right ::
-
-<StepCard title="XX">
-talks (internes et externes) comme celui-ci
-</StepCard>
-
-:: Content :: 
-<div class="mt-6 p-4 rounded-xl bg-navy/20 border border-navy/30 text-center text-sm text-white/80">
-  💡 Ce talk est né d'une note Obsidian connectée à trois highlights de podcasts différents.
-</div>
-
----
 layout: top-title-two-cols
 color: navy
 ---
@@ -456,19 +401,23 @@ color: navy
 
 :: left ::
 
-<img src="/images/article-draft.png" alt="Article de blog produit depuis Obsidian" class="h-72 mx-auto rounded-xl shadow-md"/>
+<img src="/images/article-draft.png" alt="Article de blog produit depuis Obsidian" class="h-60 mx-auto rounded-xl shadow-md"/>
 
 :: right ::
 
-<img src="/images/article-blog.png" alt="Article de blog produit depuis Obsidian" class="h-72 mx-auto rounded-xl shadow-md"/>
+<img src="/images/article-blog.png" alt="Article de blog produit depuis Obsidian" class="h-60 mx-auto rounded-xl shadow-md"/>
+
+<StickyNote color="amber-light" textAlign="left" width="220px" title="💡">
+<br/>
+Ce talk est né d'une note Obsidian connectée à 3 highlights de podcasts différents.
+</StickyNote>
 
 ---
 layout: section
 color: navy
 ---
 
-
-# 05 · Par où commencer
+# 03 · Par où commencer
 
 <hr class="my-4 border-white/30"/>
 
@@ -552,7 +501,7 @@ align: l
 
 :: notes ::
 
-"Il y a deux ans, 347 onglets. Aujourd'hui, zéro onglet et 20 articles publiés.
+"Il y a deux ans, 347 onglets. Aujourd'hui, beaucoup moins d'onglets — et 20 articles publiés.
 La différence entre lire beaucoup et produire beaucoup, c'est un système.
 
 Installez Readwise Reader. Lisez un article. Surlignez trois passages.
