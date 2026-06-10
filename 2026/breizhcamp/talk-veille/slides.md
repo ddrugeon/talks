@@ -82,12 +82,12 @@ color: matrix
 
 <StepsList
     :steps="[
-      { text: '01 - Le constat & la philosophie' },
-      { text: '02 - Le système' },
-      { text: '03 - Par où commencer' },
+      { text: 'Le constat & la philosophie' },
+      { text: 'Le système' },
+      { text: 'Par où commencer' },
     ]"
     color="matrix"
-    number-color="#00ff41"
+    number-color="#0f1b2d"
     :show-border="false"
   />
 
@@ -139,7 +139,7 @@ align: l-lt-lt
       { text: 'Consommer' },
     ]"
     color="matrix"
-    number-color="#00ff41"
+    number-color="#0f1b2d"
     :show-border="false"
   />
 
@@ -154,7 +154,7 @@ align: l-lt-lt
       { text: 'Créer du contenu' },
     ]"
     color="matrix"
-    number-color="#00ff41"
+    number-color="#0f1b2d"
     :show-border="true"
   />
 
@@ -198,7 +198,7 @@ align: l
       { text: 'Révisez trimestriellement', subtitle: 'Désinscrivez ce qui ne sert plus' },
     ]"
     color="matrix"
-    number-color="#00ff41"
+    number-color="#0f1b2d"
     :show-border="false"
   />
 
@@ -503,7 +503,7 @@ align: l
       { text: 'Faites-vous plaisir', subtitle: 'Si votre veille ressemble à une corvée, vous abandonnerez.' },
     ]"
     color="matrix"
-    number-color="#00ff41"
+    number-color="#0f1b2d"
     :show-border="true"
   />
 
@@ -531,7 +531,7 @@ align: l
       { text: 'Surlignez trois passages' },
     ]"
     color="matrix"
-    number-color="#00ff41"
+    number-color="#0f1b2d"
     :show-border="true"
   />
 
