@@ -30,15 +30,16 @@ defineProps({
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 1.5rem;
+  padding: 2.5rem 1.5rem;
   border: 2px solid #00ff41;
   border-radius: 1rem;
   gap: 1rem;
+  flex: 1;
   height: 100%;
 }
 
 .step-icon {
-  font-size: 2rem;
+  font-size: 3rem;
   min-width: 3rem;
   display: flex;
   align-items: center;
@@ -46,7 +47,7 @@ defineProps({
 }
 
 .step-title {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
   margin: 0;
   color: #1a1a1a;
@@ -54,10 +55,10 @@ defineProps({
 }
 
 .step-content {
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   color: #0f1b2d;
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.6;
   flex-grow: 1;
   display: flex;
   align-items: center;

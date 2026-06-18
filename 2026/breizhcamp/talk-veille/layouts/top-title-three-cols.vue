@@ -94,17 +94,15 @@ const marginClass = computed(() => {
       </div>
 
       <!-- Contenu avec trois colonnes -->
-      <div class="slidev-layout toptitle content w-full flex-1 min-h-0" :class="marginClass">
-        <div class="flex flex-row h-full w-full gap-6">
-          <div class="col-left" :class="alignment.l">
-            <slot name="left" />
-          </div>
-          <div class="col-center" :class="alignment.c">
-            <slot name="center" />
-          </div>
-          <div class="col-right" :class="alignment.r">
-            <slot name="right" />
-          </div>
+      <div class="slidev-layout toptitle content w-full flex-1 min-h-0 flex flex-row gap-6" :class="marginClass">
+        <div class="col-left" :class="alignment.l">
+          <slot name="left" />
+        </div>
+        <div class="col-center" :class="alignment.c">
+          <slot name="center" />
+        </div>
+        <div class="col-right" :class="alignment.r">
+          <slot name="right" />
         </div>
       </div>
 
