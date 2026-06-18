@@ -23,7 +23,7 @@ color: matrix
 
 :: content ::
 
-<img src="/images/vivaldi-tabs.png" alt="Navigateur avec des centaines d'onglets ouverts" class="h-80 mx-auto rounded-lg shadow-md"/>
+<img src="/images/vivaldi-tabs.png" alt="Navigateur avec des centaines d'onglets ouverts" class="h-100 mx-auto rounded-lg shadow-md"/>
 
 <!--
 
@@ -201,43 +201,6 @@ Cette citation explique qu'une note prise dans le passé peut servir dans un pro
 -->
 
 ---
-layout: top-title
-color: matrix
-align: l
----
-
-:: title ::
-
-# La première barrière — Sélectionner vos sources
-
-:: content ::
-
-<StepsList
-    :steps="[
-      { text: 'Listez vos sources actuelles', subtitle: 'Newsletters, podcasts, blogs, réseaux sociaux...' },
-      { text: 'Gardez seulement celles qui créent de la valeur', subtitle: 'Pas des sources par inertie ou FOMO' },
-      { text: 'Fixez un nombre maximum', subtitle: '3-5 newsletters, 2-5 podcasts. Pas plus.' },
-      { text: 'Révisez trimestriellement', subtitle: 'Désinscrivez ce qui ne sert plus' },
-    ]"
-    color="matrix"
-    number-color="#0f1b2d"
-    :show-border="false"
-  />
-
-<StickyNote color="matrix" textAlign="left" width="200px" title="💡- Règle">
-<br/>
-Avant de mettre en place un système, la vraie victoire est de dire NON. Peu de sources de qualité > beaucoup de sources de bruit.
-</StickyNote>
-
-<!--
-C'est contre-intuitif mais la clé n'est pas de consommer plus. C'est de consommer moins et mieux.
-
-Si vous ajoutez un système sans d'abord élaguer vos sources, vous gardez juste le même bruit même si il est organisé !
-
-Pour commencer à mettre en place ce système, il faut d'abord faire un inventaire de ce que vous consommez. Par exemple, de mon côté, j'adore écouter des podcasts que ce soit en cuisinant ou en faisant mes activités sportives (running ou renforcement). J'accumule les podcasts et je n'aurai pas le temps de tout écouter malheureusement. J'ai donc sélectionner les thématiques que j'aime pour ne prendre que les podcasts qui m'apportent de la valeur. Pour bien débuter, fixer vous au début un nombre restreint, ce qui vous permettra d'éviter le fameux FOMO (Fear of Missing Out)
--->
-
----
 layout: top-title-three-cols
 color: matrix
 ---
@@ -248,19 +211,19 @@ color: matrix
 
 :: left ::
 
-<StepCard icon="🎯" title="Capturer">
+<StepCard class="min-h-[25rem]" icon="🎯" title="Capturer">
 Sauvegarder ce qui m'intéresse dans un système dédié, pas dans des onglets.
 </StepCard>
 
 :: center ::
 
-<StepCard icon="🤖" title="Traiter">
+<StepCard class="min-h-[25rem]" icon="🤖" title="Traiter">
 Lire activement, surligner, connecter les idées entre elles.
 </StepCard>
 
 :: right ::
 
-<StepCard icon="🚀" title="Créer">
+<StepCard class="min-h-[25rem]" icon="🚀" title="Créer">
 Ces notes deviennent des articles, des talks, des solutions concrètes.
 </StepCard>
 
@@ -300,13 +263,7 @@ align: l
 
 :: content ::
 
-<img src="/images/architecture-veille.png" alt="Architecture du système de veille" class="h-72 mx-auto"/>
-
-<StickyNote color="matrix" textAlign="left" width="200px" title="💡- Règle">
-<br/>
-schéma à refaire : enlever NotebookLM et rajouter l'étape de traitement avec Claude
-</StickyNote>
-
+<img src="/images/architecture-veille.png" alt="Architecture du système de veille" class="w-full max-h-[30rem] object-contain mx-auto"/>
 
 <!--
 Mon système repose sur quatre couches :
@@ -457,6 +414,40 @@ L'article que j'ai écrit sur le re:invent 2025 est basé sur un ensemble d'arti
 -->
 
 ---
+layout: top-title-two-cols
+color: matrix
+columns: is-6
+align: l-lt-lt
+---
+
+:: title ::
+
+# Ce que ça coûte — vraiment
+
+:: left ::
+
+| **Outil** | **Coût** |
+| ----- | ---- |
+| **Readwise** (Reader inclus) | 10 € / mois |
+| **Snipd** | 0 € → 11,99 € / mois |
+| **Obsidian** | Gratuit |
+| **Claude** | Variable |
+
+:: right ::
+
+| **Étape** | **Temps** |
+| ----- | ----- |
+| Setup initial | Une demi-journée à une journée|
+| temps de capture | <5 min |
+| Routine quotidienne | 1 heure |
+| Routine hebdomadaire | 2 heure |
+| Routine mensuelle | 2 heure |
+
+<!--
+La transparence sur le coût évite la déception. Readwise est le seul outil payant obligatoire si on veut la sync automatique mais des projets open source commence à voir le jour. Obsidian est gratuit, Snipd a un tier gratuit. Setup minimum pour démarrer ce soir : Readwise Reader uniquement — le reste peut attendre.
+-->
+
+---
 layout: section
 color: matrix
 ---
@@ -497,36 +488,41 @@ align: l
 <!--
 Ces trois erreurs, je les ai faites. Installer les quatre outils le même week-end, passer plus de temps à configurer Obsidian qu'à l'utiliser, transformer la veille en devoir jusqu'à l'abandonner en janvier. Commencez petit. Un outil. Un geste.
 -->
----
-layout: top-title-two-cols
+--
+layout: top-title
 color: matrix
-columns: is-6
-align: l-lt-lt
+align: l
 ---
 
 :: title ::
 
-# Ce que ça coûte — vraiment
+# La première barrière — Sélectionner vos sources
 
-:: left ::
+:: content ::
 
-| Outil | Coût |
-| ----- | ---- |
-| **Readwise** (Reader inclus) | 10 € / mois |
-| **Snipd** | 0 € → 11,99 € / mois |
-| **Obsidian** | Gratuit |
-| **Claude** | Variable |
+<StepsList
+    :steps="[
+      { text: 'Listez vos sources actuelles', subtitle: 'Newsletters, podcasts, blogs, réseaux sociaux...' },
+      { text: 'Gardez seulement celles qui créent de la valeur', subtitle: 'Pas des sources par inertie ou FOMO' },
+      { text: 'Fixez un nombre maximum', subtitle: '3-5 newsletters, 2-5 podcasts. Pas plus.' },
+      { text: 'Révisez trimestriellement', subtitle: 'Désinscrivez ce qui ne sert plus' },
+    ]"
+    color="matrix"
+    number-color="#0f1b2d"
+    :show-border="false"
+  />
 
-:: right ::
-
-| Étape | Temps |
-| ----- | ----- |
-| Setup initial | Une demi-journée |
-| Routine quotidienne | 10-15 min |
-| Routine hebdomadaire | 1 heure |
+<StickyNote color="matrix" textAlign="left" width="200px" title="💡- Règle">
+<br/>
+Avant de mettre en place un système, la vraie victoire est de dire NON. Peu de sources de qualité > beaucoup de sources de bruit.
+</StickyNote>
 
 <!--
-La transparence sur le coût évite la déception. Readwise est le seul outil payant obligatoire si on veut la sync automatique mais des projets open source commence à voir le jour. Obsidian est gratuit, Snipd a un tier gratuit. Setup minimum pour démarrer ce soir : Readwise Reader uniquement — le reste peut attendre.
+C'est contre-intuitif mais la clé n'est pas de consommer plus. C'est de consommer moins et mieux.
+
+Si vous ajoutez un système sans d'abord élaguer vos sources, vous gardez juste le même bruit même si il est organisé !
+
+Pour commencer à mettre en place ce système, il faut d'abord faire un inventaire de ce que vous consommez. Par exemple, de mon côté, j'adore écouter des podcasts que ce soit en cuisinant ou en faisant mes activités sportives (running ou renforcement). J'accumule les podcasts et je n'aurai pas le temps de tout écouter malheureusement. J'ai donc sélectionner les thématiques que j'aime pour ne prendre que les podcasts qui m'apportent de la valeur. Pour bien débuter, fixer vous au début un nombre restreint, ce qui vous permettra d'éviter le fameux FOMO (Fear of Missing Out)
 -->
 
 ---
